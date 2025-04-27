@@ -1,0 +1,11 @@
+[project]
+name = "notes-mcp-server"
+version = "1.0.0"
+description = "A Model Context Protocol (MCP) server which provides AI assistants with a secure and structured way to create CRUD simple notes. The notes are persisted using apach ignite"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.1.8",
+    "mcp[cli]>=1.6.0",
+    "pyignite>=0.6.1",
+]
